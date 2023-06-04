@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.div__container {
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 15px;  
+    
+    
+}
+
+.image {
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+.div__container--titulo {
+    padding: 20px;
+
+}
+
+.center__titulo {
+    margin: 20px;
+    text-align: center;
+    color: rgb(15, 15, 20);
+
+}
+
+.center__subtitulo {
+    margin: 20px;
+    text-align: center;
+    color: blue;
+    font: 200;
+    font-size: 16px;
+}
+
+.position__container-logo-music {
+    height: 60px;
+    background-color: rgb(222, 248, 248);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+   
+}
+.box__display {
+    display: inline-block;
+}
+
+.box__display > .box__logo--music {
+    margin-left: 30px;
+}
+
+.box__display > .text__black {
+    display: block;
+    
+}
+.box__display > .text__gris {
+    display: block;
+}
+
+.box__display > .anlace--change {
+    margin-left: 30px;
+    position: absolute;
+    right: 0px;   
+    
+}
+
+
+.procced__payment{
+    width: 385px;
+    height: 60px;
+    background-color: blue;
+    border-radius: 10px;
+    margin: 30px;
+    color: white;
+    position: relative;
+}
+
+a {
+    display: inline-block;
+    position: relative;
+}
