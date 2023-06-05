@@ -1,14 +1,14 @@
+
 body {
     display: flex;
     justify-content: center;
 }
 
+
 .div__container {
     width: 450px;
     border: 1px solid black;
     border-radius: 15px;  
-    
-    
 }
 
 .image {
@@ -19,7 +19,7 @@ body {
 .div__container--titulo {
     padding: 20px;
 
-}
+}   
 
 .center__titulo {
     margin: 20px;
@@ -31,15 +31,14 @@ body {
 .center__subtitulo {
     margin: 20px;
     text-align: center;
-    color: blue;
-    font: 200;
-    font-size: 16px;
+    color: hsl(224, 48%, 68%);
+    
 }
 
 .position__container-logo-music {
     height: 60px;
-    background-color: rgb(222, 248, 248);
-    border-radius: 20px;
+    background-color: hsl(225, 100%, 94%);
+;    border-radius: 20px;
     margin: 20px;
     padding: 10px;
    
@@ -54,6 +53,9 @@ body {
 
 .box__display > .text__black {
     display: block;
+    position: relative;
+    top: 40;
+
     
 }
 .box__display > .text__gris {
@@ -62,8 +64,8 @@ body {
 
 .box__display > .anlace--change {
     margin-left: 30px;
-    position: absolute;
-    right: 0px;   
+    position: relative;
+    left: 10px;       
     
 }
 
@@ -78,7 +80,12 @@ body {
     position: relative;
 }
 
-a {
-    display: inline-block;
-    position: relative;
+.div__cancel-order {
+    margin-bottom: 20px;
+    padding-left: 170px;
+}
+
+.div__cancel-order > .cancel__subraya--none {
+    text-decoration: none;
+    background-color:  hsl(225, 100%, 98%);
 }
