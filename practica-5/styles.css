@@ -1,0 +1,12 @@
+body {
+    background-color: purple;
+}
+
+
+.mockout {
+    margin: 70px;
+    width: 375px;
+    position: absolute;
+    top: 80px;
+    right: 10px;
+}
